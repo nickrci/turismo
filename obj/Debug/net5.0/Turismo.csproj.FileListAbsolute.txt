@@ -1,0 +1,16 @@
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo.deps.json
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo.runtimeconfig.json
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo.runtimeconfig.dev.json
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo.dll
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/ref/Turismo.dll
+/home/strongtech/Desktop/cadastro/Turismo/bin/Debug/net5.0/Turismo.pdb
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.csprojAssemblyReference.cache
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.GeneratedMSBuildEditorConfig.editorconfig
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.AssemblyInfoInputs.cache
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.AssemblyInfo.cs
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.csproj.CoreCompileInputs.cache
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.dll
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/ref/Turismo.dll
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.pdb
+/home/strongtech/Desktop/cadastro/Turismo/obj/Debug/net5.0/Turismo.genruntimeconfig.cache
