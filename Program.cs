@@ -18,6 +18,8 @@ namespace Turismo
             string resposta;
             bool respostaCorreta = false;
             bool condicao = false;
+            int c = 0;
+            string listar;
 
 
 
@@ -63,53 +65,64 @@ namespace Turismo
                         switch (sistema)
                         {
                             case "1":
-                                
-                                    do
-                                    {
 
-                                        Console.Write("\nDigite o nome do passageiro: ");
-                                        nome[i] = Console.ReadLine();
+                                do
+                                {
 
-                                        Console.Write("Digite qual o lugar é a saída: ");
-                                        origem[i] = Console.ReadLine();
+                                    Console.Write("\nDigite o nome do passageiro: ");
+                                    nome[i] = Console.ReadLine();
 
-                                        Console.Write("Digite o destino: ");
-                                        destino[i] = Console.ReadLine();
+                                    Console.Write("Digite qual o lugar é a saída: ");
+                                    origem[i] = Console.ReadLine();
 
-                                        Console.Write("Digite a data da viagem ex: xx/xx/xxxx: ");
-                                        data[i] = Console.ReadLine();
+                                    Console.Write("Digite o destino: ");
+                                    destino[i] = Console.ReadLine();
 
-                                        Console.Write("Você deseja cadastrar mais uma passagem? (s/n) \n");
-                                        resposta = Console.ReadLine();
+                                    Console.Write("Digite a data da viagem ex: xx/xx/xxxx: ");
+                                    data[i] = Console.ReadLine();
 
-                                        i++;
+                                    Console.Write("Você deseja cadastrar mais uma passagem? (s/n) \n");
+                                    resposta = Console.ReadLine();
 
-                                    } while (resposta == "s");
+                                    i++;
 
-                                
+                                } while (resposta == "s");
+
+
                                 break;
 
 
                             case "2":
 
-                                Console.Clear();
-                                Console.WriteLine("Nome           Destino           Origem         data");
+                                // Console.Clear();
+                                // Console.WriteLine($"Nome:{nome[c]} Destino Origem data");
 
-                                for (var c = 0; c < tamanhoA; c++)
+
+                                for (c = 0; c < i; c++)
                                 {
 
-                                    // Console.WriteLine(nome[c], destino[c], origem[c], data[c]);
+                                   
+                                    Console.WriteLine("Nome: " + nome[c]);
+                                    Console.WriteLine("Destino: " + destino[c]);
+                                    Console.WriteLine("Origem: " + origem[c]);
+                                    Console.WriteLine("Data: " + data[c] + "\n");
 
-                                    Console.WriteLine($"{nome[c]} {destino[c]}  {origem[c]} {data[c]}");
+                                    // Console.WriteLine("\nAperte enter para listar a outra passagem ou continuar \n");
+                                    // listar = Console.ReadLine();
+
+                                    // Console.WriteLine($"{nome[i]} {destino[i]}  {origem[i]} {data[i]}");
 
                                 }
+                                condicao = false;
 
                                 break;
 
                             case "0":
 
-                            Console.WriteLine("\nObrigado por acessar!!");
-                            condicao = true;
+                                Console.WriteLine("\nObrigado por acessar!!");
+
+
+                                condicao = true;
                                 break;
 
 
